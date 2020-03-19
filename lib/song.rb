@@ -54,6 +54,9 @@ end
 def self.create_from_filename(file_name)
   self.new_from_filename(file_name)
 end
+def self.destroy_all
+  self.all.clear
+end
 def self.all
     @@all
   end
