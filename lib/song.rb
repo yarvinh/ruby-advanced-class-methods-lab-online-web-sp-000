@@ -49,7 +49,7 @@ def self.new_from_filename(name)
    song = self.create
    song.artist_name = split_song_2[0]
 
-   song = self.create
+  #  song = self.create
    song.name = split_song_2[1]
    song
 
