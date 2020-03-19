@@ -48,19 +48,10 @@ def self.new_from_filename(name)
    split_song_2 = split_song.split(".")
    song = self.create
    song.artist_name = split_song_2[0]
-
-  #  song = self.create
    song.name = split_song_2[1]
    song
-
-# split_song_2[0]
-  #  song
-
-  #  return {name:'ya', "song":'jhfjhjf'}
 end
-# def self.artist_name
-#    @@all[0].artist_name
-# end
+def self.create_from_filename("file_name)
 def self.all
     @@all
   end
